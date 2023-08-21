@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout-container{
+  @apply px-52
+}
+
+.text-primary {
+  @apply text-[#77df7c]
+}
