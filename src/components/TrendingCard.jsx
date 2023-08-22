@@ -3,7 +3,7 @@ import {AiFillFire} from "react-icons/ai"
 const TrendingCard = ({game}) => {
   return (
     <div className=''>
-        <a href="#" className="relative block h-full overflow-hidden bg-black group rounded-xl">
+        <a href="#" className="relative block h-[250px] overflow-hidden bg-black group rounded-xl">
         <img
             alt={game.name}
             src={game.background_image}

@@ -7,7 +7,7 @@ const TrendingContainer = () => {
   console.log(games)
   return (
     
-    <div className="grid grid-cols-6 gap-3 my-10">
+    <div className="grid grid-cols-2 gap-3 my-10 md:grid-cols-3 lg:grid-cols-6">
       {games?.results?.slice(0,6).map(game=><TrendingCard key={game.id} game={game}/>)}
     </div>
    
