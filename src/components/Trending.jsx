@@ -1,4 +1,3 @@
-import React from 'react'
 import SecondaryButton from './Buttons/SecondaryButton'
 import TrendingContainer from './TrendingContainer'
 

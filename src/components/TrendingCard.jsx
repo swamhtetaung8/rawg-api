@@ -1,4 +1,3 @@
-import React from 'react'
 import {AiFillFire} from "react-icons/ai"
 const TrendingCard = ({game}) => {
   return (

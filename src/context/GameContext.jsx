@@ -8,7 +8,7 @@ export const GameContextProvider = ({children}) => {
 
     const [games,setGames] = useState([]);
 
-    const { isLoading, isError, data, error } = useQuery(['getGames'], getGames);
+    const { isLoading, data } = useQuery(['getGames'], getGames);
     const providerData = {isLoadingGames:isLoading,games}
 
     useEffect(()=>{
